@@ -1,0 +1,243 @@
+	
+
+	 Welcome to the DLS compute cluster
+
+	 For MPI jobs, please use 'module load openmpi'.
+
+	 If using a different OpenMPI installation,
+	 or manually specifying path to OpenMPI, option
+	 '-mca orte_forward_job_control 1'
+	 must be added to mpirun to ensure cluster functionality.
+
+	 To use a GPU node, the consumable 'gpu' must be requested,
+	 including the number of GPUs required (e.g. 'qrsh -l gpu=2').
+
+	 Grid Engine documentation (e.g. User Guide) can be found in
+	 /dls_sw/cluster/docs and on Confluence.
+
+	 Please report any issues to linux.manager@diamond.ac.uk
+
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.23.156.8:38497'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.23.156.8:38212'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.23.156.8:34671'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.23.156.8:42711'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.23.156.8:44653'
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-N7MwT7', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-EwkOZ9', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-bWLJ4P', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-wIx_B6', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-JWqheQ', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-M_perz', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-wXA9jT', purging
+distributed.worker - INFO -       Start worker at:   tcp://172.23.156.8:39214
+distributed.worker - INFO -          Listening to:   tcp://172.23.156.8:39214
+distributed.worker - INFO -              bokeh at:         172.23.156.8:34404
+distributed.worker - INFO -              nanny at:         172.23.156.8:34671
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.7:43563
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-UGb8MU
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://172.23.156.8:45231
+distributed.worker - INFO -          Listening to:   tcp://172.23.156.8:45231
+distributed.worker - INFO -              bokeh at:         172.23.156.8:38170
+distributed.worker - INFO -              nanny at:         172.23.156.8:44653
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.7:43563
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-emtVQt', purging
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-fVzVqT
+distributed.worker - INFO - -------------------------------------------------
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-KybdBf', purging
+distributed.worker - INFO -       Start worker at:   tcp://172.23.156.8:33932
+distributed.worker - INFO -          Listening to:   tcp://172.23.156.8:33932
+distributed.worker - INFO -              bokeh at:         172.23.156.8:45911
+distributed.worker - INFO -              nanny at:         172.23.156.8:38497
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.7:43563
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-G4VsZS
+distributed.worker - INFO - -------------------------------------------------
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-jM7bto', purging
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.7:43563
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-Ul5RER', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-GAQXU4', purging
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.7:43563
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:   tcp://172.23.156.8:33061
+distributed.worker - INFO -          Listening to:   tcp://172.23.156.8:33061
+distributed.worker - INFO -              bokeh at:         172.23.156.8:38857
+distributed.worker - INFO -              nanny at:         172.23.156.8:42711
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.7:43563
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-Kkqk_I
+distributed.worker - INFO - -------------------------------------------------
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-jeRQB2', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-EhsaKO', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-74i_U9', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-Ee2kyt', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-vaEkyA', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-sqiOqj', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-YjXU7X', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-XkfbTb', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-_JLq_4', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-0y09eh', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-b2b0Le', purging
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.7:43563
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-qj7UuF', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-9Ctc6N', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-i_wRLV', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-sDMwIB', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-9cUNp9', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-BWHr4g', purging
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.7:43563
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-9pvoFW', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-6hAT4U', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-p7j1qe', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-FaXzmF', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-k3y6Be', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-9ikZvK', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-TdwyFC', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-E9d4rV', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-hNQLIQ', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-I6cVfG', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-umpoCy', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-Nhkkc3', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-s0gXHD', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-eNzoY1', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-l0Lq1s', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-Cjn378', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-IXLgpf', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-IAnOA2', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-gI2JDc', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-3vcHkx', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-Ngq6Z7', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-bWdBtF', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-Y8bG05', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-JCYXnA', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-OP7A6d', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-NQSWfD', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-PrcsZv', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-H7tHLO', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-8PZKbo', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-pHKyBu', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-lfqtvK', purging
+distributed.worker - INFO -       Start worker at:   tcp://172.23.156.8:33258
+distributed.worker - INFO -          Listening to:   tcp://172.23.156.8:33258
+distributed.worker - INFO -              bokeh at:         172.23.156.8:35839
+distributed.worker - INFO -              nanny at:         172.23.156.8:38212
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.7:43563
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-vUvDOC
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.7:43563
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.66s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.09s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.43s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.35s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 12.21s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 12.28s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 12.19s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 12.74s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 12.56s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+>>>>>>>>>>/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The number of calls to function has reached maxfev = 400.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The number of calls to function has reached maxfev = 400.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The number of calls to function has reached maxfev = 400.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The number of calls to function has reached maxfev = 400.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The number of calls to function has reached maxfev = 400.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last five Jacobian evaluations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last five Jacobian evaluations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last five Jacobian evaluations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last five Jacobian evaluations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last five Jacobian evaluations.
+  warnings.warn(msg, RuntimeWarning)
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.74s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.48s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.48s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 5.19s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 9.12s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 10.04s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 12.08s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.94s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 12.88s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 7.92s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.67s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 6.19s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 11.09s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 11.03s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 9.31s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 11.24s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.13s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 33.02s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - WARNING -  Compute Failed
+Function:  make_event_map
+args:      (<function make_map at 0x7f362787bde8>, PosixPath('/dls/science/groups/i04-1/conor_dev/pandda/refactored_test_dir_2/pandda_test_9/datasets/PDK2-x0526/event_map_1.ccp4'), <multi_dataset_crystalography.dataset.sample_loader.ElectronDensityMap object at 0x7f36472fa950>, <multi_dataset_crystalography.dataset.dataset.PanddaDataset object at 0x7f362789c450>, <multi_dataset_crystalography.dataset.sample_loader.ElectronDensityMap object at 0x7f366625fb10>, <pandda.analyse.events.Event object at 0x7f36276ea0d0>, 0.76, <pandda_analyse.event_model.PanDDANormalModel instance at 0x7f364c3ceea8>, <giant.grid.Grid object at 0x7f367c73e8d0>)
+kwargs:    {}
+Exception: RuntimeError('iotbx.ccp4_map: error opening file for writing: "/dls/science/groups/i04-1/conor_dev/pandda/refactored_test_dir_2/pandda_test_9/datasets/PDK2-x0526/event_map_1.ccp4/z_map.ccp4"',)
+
+distributed.core - INFO - Event loop was unresponsive in Worker for 33.63s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - WARNING -  Compute Failed
+Function:  make_event_map
+args:      (<function make_map at 0x7f3620060e60>, PosixPath('/dls/science/groups/i04-1/conor_dev/pandda/refactored_test_dir_2/pandda_test_9/datasets/PDK2-x0555/event_map_4.ccp4'), <multi_dataset_crystalography.dataset.sample_loader.ElectronDensityMap object at 0x7f363324c710>, <multi_dataset_crystalography.dataset.dataset.PanddaDataset object at 0x7f3618ec37d0>, <multi_dataset_crystalography.dataset.sample_loader.ElectronDensityMap object at 0x7f365e146b10>, <pandda.analyse.events.Event object at 0x7f3618d17590>, 0.63, <pandda_analyse.event_model.PanDDANormalModel instance at 0x7f363856b680>, <giant.grid.Grid object at 0x7f367cd47710>)
+kwargs:    {}
+Exception: RuntimeError('iotbx.ccp4_map: error opening file for writing: "/dls/science/groups/i04-1/conor_dev/pandda/refactored_test_dir_2/pandda_test_9/datasets/PDK2-x0555/event_map_4.ccp4/z_map.ccp4"',)
+
+distributed.core - INFO - Event loop was unresponsive in Worker for 33.05s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - WARNING -  Compute Failed
+Function:  make_event_map
+args:      (<function make_map at 0x7f362c40c050>, PosixPath('/dls/science/groups/i04-1/conor_dev/pandda/refactored_test_dir_2/pandda_test_9/datasets/PDK2-x0710/event_map_1.ccp4'), <multi_dataset_crystalography.dataset.sample_loader.ElectronDensityMap object at 0x7f3643289550>, <multi_dataset_crystalography.dataset.dataset.PanddaDataset object at 0x7f362c582b90>, <multi_dataset_crystalography.dataset.sample_loader.ElectronDensityMap object at 0x7f365df78f10>, <pandda.analyse.events.Event object at 0x7f362c2dfe50>, 0.7, <pandda_analyse.event_model.PanDDANormalModel instance at 0x7f3643373fc8>, <giant.grid.Grid object at 0x7f367c7116d0>)
+kwargs:    {}
+Exception: RuntimeError('iotbx.ccp4_map: error opening file for writing: "/dls/science/groups/i04-1/conor_dev/pandda/refactored_test_dir_2/pandda_test_9/datasets/PDK2-x0710/event_map_1.ccp4/z_map.ccp4"',)
+
+distributed.core - INFO - Event loop was unresponsive in Worker for 30.52s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - WARNING -  Compute Failed
+Function:  make_event_map
+args:      (<function make_map at 0x7f36279b0668>, PosixPath('/dls/science/groups/i04-1/conor_dev/pandda/refactored_test_dir_2/pandda_test_9/datasets/PDK2-x0621/event_map_1.ccp4'), <multi_dataset_crystalography.dataset.sample_loader.ElectronDensityMap object at 0x7f364c259650>, <multi_dataset_crystalography.dataset.dataset.PanddaDataset object at 0x7f36278febd0>, <multi_dataset_crystalography.dataset.sample_loader.ElectronDensityMap object at 0x7f3665ee1c90>, <pandda.analyse.events.Event object at 0x7f3627755c50>, 0.77, <pandda_analyse.event_model.PanDDANormalModel instance at 0x7f364c3ef5f0>, <giant.grid.Grid object at 0x7f367c72b510>)
+kwargs:    {}
+Exception: RuntimeError('iotbx.ccp4_map: error opening file for writing: "/dls/science/groups/i04-1/conor_dev/pandda/refactored_test_dir_2/pandda_test_9/datasets/PDK2-x0621/event_map_1.ccp4/z_map.ccp4"',)
+

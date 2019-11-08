@@ -1,0 +1,600 @@
+	
+
+	 Welcome to the DLS compute cluster
+
+	 For MPI jobs, please use 'module load openmpi'.
+
+	 If using a different OpenMPI installation,
+	 or manually specifying path to OpenMPI, option
+	 '-mca orte_forward_job_control 1'
+	 must be added to mpirun to ensure cluster functionality.
+
+	 To use a GPU node, the consumable 'gpu' must be requested,
+	 including the number of GPUs required (e.g. 'qrsh -l gpu=2').
+
+	 Grid Engine documentation (e.g. User Guide) can be found in
+	 /dls_sw/cluster/docs and on Confluence.
+
+	 Please report any issues to linux.manager@diamond.ac.uk
+
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.23.132.30:41746'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.23.132.30:34004'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.23.132.30:42630'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.23.132.30:44062'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.23.132.30:38571'
+distributed.worker - INFO -       Start worker at:  tcp://172.23.132.30:43555
+distributed.worker - INFO -          Listening to:  tcp://172.23.132.30:43555
+distributed.worker - INFO -              bokeh at:        172.23.132.30:38266
+distributed.worker - INFO -              nanny at:        172.23.132.30:41746
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-5NIw3o
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://172.23.132.30:38043
+distributed.worker - INFO -          Listening to:  tcp://172.23.132.30:38043
+distributed.worker - INFO -              bokeh at:        172.23.132.30:41934
+distributed.worker - INFO -              nanny at:        172.23.132.30:38571
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-3uEHih
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://172.23.132.30:33069
+distributed.worker - INFO -          Listening to:  tcp://172.23.132.30:33069
+distributed.worker - INFO -              bokeh at:        172.23.132.30:38039
+distributed.worker - INFO -              nanny at:        172.23.132.30:34004
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-wIy9eT
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://172.23.132.30:38936
+distributed.worker - INFO -          Listening to:  tcp://172.23.132.30:38936
+distributed.worker - INFO -              bokeh at:        172.23.132.30:33278
+distributed.worker - INFO -              nanny at:        172.23.132.30:44062
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-yoH3i5
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://172.23.132.30:46172
+distributed.worker - INFO -          Listening to:  tcp://172.23.132.30:46172
+distributed.worker - INFO -              bokeh at:        172.23.132.30:38831
+distributed.worker - INFO -              nanny at:        172.23.132.30:42630
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-YH2Fz5
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.13s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 7.21s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 12.20s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+>>>>/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The number of calls to function has reached maxfev = 400.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The number of calls to function has reached maxfev = 400.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The number of calls to function has reached maxfev = 400.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The number of calls to function has reached maxfev = 400.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The number of calls to function has reached maxfev = 400.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last five Jacobian evaluations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last five Jacobian evaluations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last five Jacobian evaluations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last five Jacobian evaluations.
+  warnings.warn(msg, RuntimeWarning)
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.34s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.56s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 5.40s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 5.40s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.21s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.20s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.13s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.07s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.21s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 8.39s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 101.66s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - Stopping worker at tcp://172.23.132.30:33069
+distributed.worker - INFO - Stopping worker at tcp://172.23.132.30:38936
+distributed.worker - INFO - Stopping worker at tcp://172.23.132.30:46172
+distributed.worker - INFO - Stopping worker at tcp://172.23.132.30:38043
+distributed.worker - INFO - Stopping worker at tcp://172.23.132.30:43555
+distributed.nanny - INFO - Worker closed
+Outputing statistical map
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+80
+285
+0
+0
+distributed.nanny - INFO - Worker closed
+80
+382
+2
+2
+2
+1
+1
+distributed.nanny - INFO - Worker closed
+distributed.worker - INFO -       Start worker at:  tcp://172.23.132.30:34236
+distributed.worker - INFO -          Listening to:  tcp://172.23.132.30:34236
+distributed.worker - INFO -              bokeh at:        172.23.132.30:37547
+distributed.worker - INFO -              nanny at:        172.23.132.30:38571
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-0e1f23
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:  tcp://172.23.132.30:46060
+distributed.worker - INFO -          Listening to:  tcp://172.23.132.30:46060
+distributed.worker - INFO -              bokeh at:        172.23.132.30:43687
+distributed.worker - INFO -              nanny at:        172.23.132.30:34004
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-bUtum5
+distributed.worker - INFO -       Start worker at:  tcp://172.23.132.30:38746
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:  tcp://172.23.132.30:38746
+distributed.worker - INFO -              bokeh at:        172.23.132.30:41944
+distributed.worker - INFO -              nanny at:        172.23.132.30:42630
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-ih8y3H
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:  tcp://172.23.132.30:42132
+distributed.worker - INFO -          Listening to:  tcp://172.23.132.30:42132
+distributed.worker - INFO -              bokeh at:        172.23.132.30:38895
+distributed.worker - INFO -              nanny at:        172.23.132.30:44062
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-41Ii7G
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:  tcp://172.23.132.30:34749
+distributed.worker - INFO -          Listening to:  tcp://172.23.132.30:34749
+distributed.worker - INFO -              bokeh at:        172.23.132.30:44374
+distributed.worker - INFO -              nanny at:        172.23.132.30:41746
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-Lo98FT
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.60s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.75s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 11.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 5.27s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 5.68s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.77s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 11.61s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 11.76s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 11.69s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 11.61s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+>distributed.core - INFO - Event loop was unresponsive in Worker for 11.78s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+>>>>>>>>>/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The number of calls to function has reached maxfev = 400.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The number of calls to function has reached maxfev = 400.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The number of calls to function has reached maxfev = 400.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The number of calls to function has reached maxfev = 400.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The number of calls to function has reached maxfev = 400.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last five Jacobian evaluations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last five Jacobian evaluations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last five Jacobian evaluations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last five Jacobian evaluations.
+  warnings.warn(msg, RuntimeWarning)
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.44s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.35s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 5.56s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.15s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 5.77s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 5.61s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.12s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.14s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.24s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.14s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 5.26s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 5.34s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.80s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.02s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.71s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.24s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 8.63s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 103.97s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - Stopping worker at tcp://172.23.132.30:46060
+distributed.worker - INFO - Stopping worker at tcp://172.23.132.30:34236
+distributed.worker - INFO - Stopping worker at tcp://172.23.132.30:42132
+distributed.worker - INFO - Stopping worker at tcp://172.23.132.30:34749
+distributed.worker - INFO - Stopping worker at tcp://172.23.132.30:38746
+distributed.nanny - INFO - Worker closed
+80
+365
+0
+0
+Outputing event map
+distributed.nanny - INFO - Worker closed
+80
+136
+0
+0
+80
+251
+0
+0
+Outputing event map
+distributed.nanny - INFO - Worker closed
+80
+268
+0
+0
+Outputing event map
+distributed.nanny - INFO - Worker closed
+80
+149
+0
+0
+80
+790
+0
+0
+distributed.nanny - INFO - Worker closed
+80
+128
+0
+0
+distributed.nanny - WARNING - Restarting worker
+distributed.nanny - WARNING - Restarting worker
+distributed.worker - INFO -       Start worker at:  tcp://172.23.132.30:35157
+distributed.worker - INFO -          Listening to:  tcp://172.23.132.30:35157
+distributed.worker - INFO -              bokeh at:        172.23.132.30:46852
+distributed.worker - INFO -              nanny at:        172.23.132.30:44062
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-lvcHgd
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:  tcp://172.23.132.30:46136
+distributed.worker - INFO -          Listening to:  tcp://172.23.132.30:46136
+distributed.worker - INFO -              bokeh at:        172.23.132.30:39440
+distributed.worker - INFO -              nanny at:        172.23.132.30:42630
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-cAf6TJ
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:  tcp://172.23.132.30:36045
+distributed.worker - INFO -          Listening to:  tcp://172.23.132.30:36045
+distributed.worker - INFO -              bokeh at:        172.23.132.30:33004
+distributed.worker - INFO -              nanny at:        172.23.132.30:34004
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-D9lG1O
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:  tcp://172.23.132.30:35591
+distributed.worker - INFO -          Listening to:  tcp://172.23.132.30:35591
+distributed.worker - INFO -              bokeh at:        172.23.132.30:43790
+distributed.worker - INFO -              nanny at:        172.23.132.30:41746
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-BhZgVw
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:  tcp://172.23.132.30:36147
+distributed.worker - INFO -          Listening to:  tcp://172.23.132.30:36147
+distributed.worker - INFO -              bokeh at:        172.23.132.30:44569
+distributed.worker - INFO -              nanny at:        172.23.132.30:38571
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-riycTY
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.20s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 6.88s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.89s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.69s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.18s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.31s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 11.62s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 11.60s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 11.65s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 11.98s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+>>>>distributed.core - INFO - Event loop was unresponsive in Worker for 11.09s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+>distributed.core - INFO - Event loop was unresponsive in Worker for 10.81s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+>>>>>>/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The number of calls to function has reached maxfev = 400.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The number of calls to function has reached maxfev = 400.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The number of calls to function has reached maxfev = 400.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The number of calls to function has reached maxfev = 400.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The number of calls to function has reached maxfev = 400.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last five Jacobian evaluations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last five Jacobian evaluations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last five Jacobian evaluations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last five Jacobian evaluations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last five Jacobian evaluations.
+  warnings.warn(msg, RuntimeWarning)
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.44s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.19s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.21s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 5.62s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.38s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.40s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.20s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.14s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.30s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.41s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 10.45s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.62s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - INFO - Stopping worker at tcp://172.23.132.30:35157
+distributed.worker - INFO - Stopping worker at tcp://172.23.132.30:36045
+distributed.worker - INFO - Stopping worker at tcp://172.23.132.30:46136
+distributed.worker - INFO - Stopping worker at tcp://172.23.132.30:35591
+distributed.worker - INFO - Stopping worker at tcp://172.23.132.30:36147
+distributed.nanny - INFO - Worker closed
+80
+333
+0
+0
+Outputing event map
+distributed.nanny - INFO - Worker closed
+80
+234
+0
+0
+80
+294
+0
+0
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+80
+345
+0
+0
+80
+354
+0
+0
+distributed.nanny - INFO - Worker closed
+80
+463
+0
+0
+distributed.worker - INFO -       Start worker at:  tcp://172.23.132.30:43499
+distributed.worker - INFO -          Listening to:  tcp://172.23.132.30:43499
+distributed.worker - INFO -              bokeh at:        172.23.132.30:45922
+distributed.worker - INFO -              nanny at:        172.23.132.30:38571
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-tpEJH1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:  tcp://172.23.132.30:36365
+distributed.worker - INFO -          Listening to:  tcp://172.23.132.30:36365
+distributed.worker - INFO -              bokeh at:        172.23.132.30:41177
+distributed.worker - INFO -              nanny at:        172.23.132.30:41746
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-b9F3iP
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:  tcp://172.23.132.30:39823
+distributed.worker - INFO -          Listening to:  tcp://172.23.132.30:39823
+distributed.worker - INFO -              bokeh at:        172.23.132.30:35294
+distributed.worker - INFO -              nanny at:        172.23.132.30:42630
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-GkuTiQ
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:  tcp://172.23.132.30:39406
+distributed.worker - INFO -          Listening to:  tcp://172.23.132.30:39406
+distributed.worker - INFO -              bokeh at:        172.23.132.30:43660
+distributed.worker - INFO -              nanny at:        172.23.132.30:44062
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-g2eVLT
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:  tcp://172.23.132.30:43264
+distributed.worker - INFO -          Listening to:  tcp://172.23.132.30:43264
+distributed.worker - INFO -              bokeh at:        172.23.132.30:37875
+distributed.worker - INFO -              nanny at:        172.23.132.30:34004
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-aMZeoM
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.3:33793
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.60s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.14s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.07s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.50s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 11.84s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 12.00s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 11.83s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 11.97s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+>>>>distributed.core - INFO - Event loop was unresponsive in Worker for 13.14s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+>>>>>>

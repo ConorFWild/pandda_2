@@ -1,0 +1,92 @@
+	
+
+	 Welcome to the DLS compute cluster
+
+	 For MPI jobs, please use 'module load openmpi'.
+
+	 If using a different OpenMPI installation,
+	 or manually specifying path to OpenMPI, option
+	 '-mca orte_forward_job_control 1'
+	 must be added to mpirun to ensure cluster functionality.
+
+	 To use a GPU node, the consumable 'gpu' must be requested,
+	 including the number of GPUs required (e.g. 'qrsh -l gpu=2').
+
+	 Grid Engine documentation (e.g. User Guide) can be found in
+	 /dls_sw/cluster/docs and on Confluence.
+
+	 Please report any issues to linux.manager@diamond.ac.uk
+
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.23.152.10:34171'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.23.152.10:46845'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.23.152.10:43755'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.23.152.10:42093'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.23.152.10:36936'
+distributed.worker - INFO -       Start worker at:  tcp://172.23.152.10:33078
+distributed.worker - INFO -          Listening to:  tcp://172.23.152.10:33078
+distributed.worker - INFO -              bokeh at:        172.23.152.10:44736
+distributed.worker - INFO -              nanny at:        172.23.152.10:34171
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.7:37122
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-tOmJQa
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.7:37122
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:  tcp://172.23.152.10:39559
+distributed.worker - INFO -          Listening to:  tcp://172.23.152.10:39559
+distributed.worker - INFO -              bokeh at:        172.23.152.10:36705
+distributed.worker - INFO -              nanny at:        172.23.152.10:43755
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.7:37122
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-pjvJTZ
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://172.23.152.10:43868
+distributed.worker - INFO -          Listening to:  tcp://172.23.152.10:43868
+distributed.worker - INFO -              bokeh at:        172.23.152.10:41033
+distributed.worker - INFO -              nanny at:        172.23.152.10:36936
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.7:37122
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-s_LZvH
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.7:37122
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:  tcp://172.23.152.10:38467
+distributed.worker - INFO -          Listening to:  tcp://172.23.152.10:38467
+distributed.worker - INFO -              bokeh at:        172.23.152.10:38722
+distributed.worker - INFO -              nanny at:        172.23.152.10:46845
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.7:37122
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-gz5JlV
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.7:37122
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:  tcp://172.23.152.10:33545
+distributed.worker - INFO -          Listening to:  tcp://172.23.152.10:33545
+distributed.worker - INFO -              bokeh at:        172.23.152.10:33848
+distributed.worker - INFO -              nanny at:        172.23.152.10:42093
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.7:37122
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-fV9VWz
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.7:37122
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.7:37122
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.46s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.47s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.47s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.

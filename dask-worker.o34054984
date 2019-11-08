@@ -1,0 +1,112 @@
+	
+
+	 Welcome to the DLS compute cluster
+
+	 For MPI jobs, please use 'module load openmpi'.
+
+	 If using a different OpenMPI installation,
+	 or manually specifying path to OpenMPI, option
+	 '-mca orte_forward_job_control 1'
+	 must be added to mpirun to ensure cluster functionality.
+
+	 To use a GPU node, the consumable 'gpu' must be requested,
+	 including the number of GPUs required (e.g. 'qrsh -l gpu=2').
+
+	 Grid Engine documentation (e.g. User Guide) can be found in
+	 /dls_sw/cluster/docs and on Confluence.
+
+	 Please report any issues to linux.manager@diamond.ac.uk
+
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.23.156.9:33751'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.23.156.9:43466'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.23.156.9:37417'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.23.156.9:34794'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.23.156.9:45363'
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-5f_TSc', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-1K0C90', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-pmczGw', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-LwzEtK', purging
+distributed.worker - INFO -       Start worker at:   tcp://172.23.156.9:39616
+distributed.worker - INFO -          Listening to:   tcp://172.23.156.9:39616
+distributed.worker - INFO -              bokeh at:         172.23.156.9:33379
+distributed.worker - INFO -              nanny at:         172.23.156.9:37417
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.7:42506
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-czCSWF
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://172.23.156.9:37709
+distributed.worker - INFO -          Listening to:   tcp://172.23.156.9:37709
+distributed.worker - INFO -              bokeh at:         172.23.156.9:37404
+distributed.worker - INFO -              nanny at:         172.23.156.9:33751
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.7:42506
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-XY6qn2
+distributed.worker - INFO - -------------------------------------------------
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-plitaH', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-2Kbm80', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-TICl65', purging
+distributed.worker - INFO -       Start worker at:   tcp://172.23.156.9:38972
+distributed.worker - INFO -          Listening to:   tcp://172.23.156.9:38972
+distributed.worker - INFO -              bokeh at:         172.23.156.9:36161
+distributed.worker - INFO -              nanny at:         172.23.156.9:45363
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.7:42506
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-UiGrtl
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://172.23.156.9:45674
+distributed.worker - INFO -          Listening to:   tcp://172.23.156.9:45674
+distributed.worker - INFO -              bokeh at:         172.23.156.9:45389
+distributed.worker - INFO -              nanny at:         172.23.156.9:34794
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.7:42506
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-y_DtPm
+distributed.worker - INFO - -------------------------------------------------
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-KEJ85c', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-ES5Fjt', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-QWiMoI', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-39XbCz', purging
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.7:42506
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-M4wcVW', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-89Tn_H', purging
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.7:42506
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-2WyUle', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-zyVcP7', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-h8KRel', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-5qznLO', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-ViG8_a', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-HstzwH', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-aabikk', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-C4p23w', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-FItGxa', purging
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.7:42506
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-Om5Ane', purging
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.7:42506
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-i1P9Rt', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-LKMVmi', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-qrm7oN', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-hrfpv8', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-sL65Pf', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-1YZoiH', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-U67CZm', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-9ge4N7', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-ORQ8KE', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-DmlGkW', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-_yXfag', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-Fwnx2L', purging
+distributed.diskutils - INFO - Found stale lock file and directory u'/dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-lg7ECX', purging

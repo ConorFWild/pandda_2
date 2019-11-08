@@ -1,0 +1,241 @@
+	
+
+	 Welcome to the DLS compute cluster
+
+	 For MPI jobs, please use 'module load openmpi'.
+
+	 If using a different OpenMPI installation,
+	 or manually specifying path to OpenMPI, option
+	 '-mca orte_forward_job_control 1'
+	 must be added to mpirun to ensure cluster functionality.
+
+	 To use a GPU node, the consumable 'gpu' must be requested,
+	 including the number of GPUs required (e.g. 'qrsh -l gpu=2').
+
+	 Grid Engine documentation (e.g. User Guide) can be found in
+	 /dls_sw/cluster/docs and on Confluence.
+
+	 Please report any issues to linux.manager@diamond.ac.uk
+
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.23.156.10:46651'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.23.156.10:44136'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.23.156.10:33463'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.23.156.10:44936'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.23.156.10:34113'
+distributed.worker - INFO -       Start worker at:  tcp://172.23.156.10:35010
+distributed.worker - INFO -          Listening to:  tcp://172.23.156.10:35010
+distributed.worker - INFO -              bokeh at:        172.23.156.10:42862
+distributed.worker - INFO -              nanny at:        172.23.156.10:44136
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.7:43852
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-myWBe1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://172.23.156.10:44220
+distributed.worker - INFO -          Listening to:  tcp://172.23.156.10:44220
+distributed.worker - INFO -              bokeh at:        172.23.156.10:41040
+distributed.worker - INFO -              nanny at:        172.23.156.10:34113
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.7:43852
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-wH0Z9j
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://172.23.156.10:41652
+distributed.worker - INFO -          Listening to:  tcp://172.23.156.10:41652
+distributed.worker - INFO -              bokeh at:        172.23.156.10:39025
+distributed.worker - INFO -              nanny at:        172.23.156.10:33463
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.7:43852
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-vzxnya
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://172.23.156.10:37643
+distributed.worker - INFO -          Listening to:  tcp://172.23.156.10:37643
+distributed.worker - INFO -              bokeh at:        172.23.156.10:33870
+distributed.worker - INFO -              nanny at:        172.23.156.10:44936
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.7:43852
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-uY2yUH
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://172.23.156.10:43226
+distributed.worker - INFO -          Listening to:  tcp://172.23.156.10:43226
+distributed.worker - INFO -              bokeh at:        172.23.156.10:46185
+distributed.worker - INFO -              nanny at:        172.23.156.10:46651
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.7:43852
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-n3ADuJ
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.7:43852
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.7:43852
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.7:43852
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.7:43852
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://172.23.159.7:43852
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.70s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 5.44s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 8.92s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.04s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.80s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.54s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.33s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.73s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 13.56s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+>distributed.core - INFO - Event loop was unresponsive in Worker for 13.14s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+>distributed.core - INFO - Event loop was unresponsive in Worker for 12.86s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 12.82s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+>distributed.core - INFO - Event loop was unresponsive in Worker for 13.13s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+>>>>>>>/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The number of calls to function has reached maxfev = 400.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The number of calls to function has reached maxfev = 400.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last five Jacobian evaluations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last five Jacobian evaluations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The number of calls to function has reached maxfev = 400.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The number of calls to function has reached maxfev = 400.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last five Jacobian evaluations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The number of calls to function has reached maxfev = 400.
+  warnings.warn(msg, RuntimeWarning)
+/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/scipy/optimize/minpack.py:162: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last five Jacobian evaluations.
+  warnings.warn(msg, RuntimeWarning)
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.35s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.78s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.76s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.87s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 5.44s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.43s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - ERROR - Worker stream died during communication: tcp://172.23.156.9:34904
+Traceback (most recent call last):
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/distributed/worker.py", line 1827, in gather_dep
+    self.rpc, deps, worker, who=self.address
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/tornado/concurrent.py", line 261, in result
+    raise_exc_info(self._exc_info)
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/distributed/worker.py", line 2975, in get_data_from_worker
+    max_connections=max_connections,
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/tornado/concurrent.py", line 261, in result
+    raise_exc_info(self._exc_info)
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/distributed/core.py", line 533, in send_recv
+    response = yield comm.read(deserializers=deserializers)
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/tornado/concurrent.py", line 261, in result
+    raise_exc_info(self._exc_info)
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/distributed/comm/tcp.py", line 214, in read
+    convert_stream_closed_error(self, e)
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/distributed/comm/tcp.py", line 141, in convert_stream_closed_error
+    raise CommClosedError("in %s: %s" % (obj, exc))
+CommClosedError: in <closed TCP>: Stream is closed
+distributed.worker - ERROR - Worker stream died during communication: tcp://172.23.156.9:45268
+Traceback (most recent call last):
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/distributed/worker.py", line 1827, in gather_dep
+    self.rpc, deps, worker, who=self.address
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/tornado/concurrent.py", line 261, in result
+    raise_exc_info(self._exc_info)
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/distributed/worker.py", line 2975, in get_data_from_worker
+    max_connections=max_connections,
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/tornado/concurrent.py", line 261, in result
+    raise_exc_info(self._exc_info)
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/distributed/core.py", line 533, in send_recv
+    response = yield comm.read(deserializers=deserializers)
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/tornado/concurrent.py", line 261, in result
+    raise_exc_info(self._exc_info)
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/distributed/comm/tcp.py", line 214, in read
+    convert_stream_closed_error(self, e)
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/distributed/comm/tcp.py", line 141, in convert_stream_closed_error
+    raise CommClosedError("in %s: %s" % (obj, exc))
+CommClosedError: in <closed TCP>: Stream is closed
+distributed.worker - INFO - Can't find dependencies for key cluster_outliers-86e1d0a91dc65f8fc736f17af5e5b965
+distributed.worker - INFO - Dependent not found: evaluate_model-ff1c3199c8455d67146f733d0e9b7aed 0 .  Asking scheduler
+distributed.worker - ERROR - Worker stream died during communication: tcp://172.23.156.9:44462
+Traceback (most recent call last):
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/distributed/worker.py", line 1827, in gather_dep
+    self.rpc, deps, worker, who=self.address
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/tornado/concurrent.py", line 261, in result
+    raise_exc_info(self._exc_info)
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/distributed/worker.py", line 2975, in get_data_from_worker
+    max_connections=max_connections,
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/tornado/concurrent.py", line 261, in result
+    raise_exc_info(self._exc_info)
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/distributed/core.py", line 533, in send_recv
+    response = yield comm.read(deserializers=deserializers)
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/tornado/concurrent.py", line 261, in result
+    raise_exc_info(self._exc_info)
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/tornado/gen.py", line 326, in wrapper
+    yielded = next(result)
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/distributed/comm/tcp.py", line 214, in read
+    convert_stream_closed_error(self, e)
+  File "/dls/science/groups/i04-1/conor_dev/ccp4/base/lib/python2.7/site-packages/distributed/comm/tcp.py", line 139, in convert_stream_closed_error
+    raise CommClosedError("in %s: %s: %s" % (obj, exc.__class__.__name__, exc))
+CommClosedError: in <closed TCP>: error: [Errno 32] Broken pipe

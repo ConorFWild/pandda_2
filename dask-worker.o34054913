@@ -1,0 +1,85 @@
+	
+
+	 Welcome to the DLS compute cluster
+
+	 For MPI jobs, please use 'module load openmpi'.
+
+	 If using a different OpenMPI installation,
+	 or manually specifying path to OpenMPI, option
+	 '-mca orte_forward_job_control 1'
+	 must be added to mpirun to ensure cluster functionality.
+
+	 To use a GPU node, the consumable 'gpu' must be requested,
+	 including the number of GPUs required (e.g. 'qrsh -l gpu=2').
+
+	 Grid Engine documentation (e.g. User Guide) can be found in
+	 /dls_sw/cluster/docs and on Confluence.
+
+	 Please report any issues to linux.manager@diamond.ac.uk
+
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.23.156.8:46568'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.23.156.8:34582'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.23.156.8:44834'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.23.156.8:44356'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.23.156.8:46739'
+distributed.worker - INFO -       Start worker at:   tcp://172.23.156.8:39369
+distributed.worker - INFO -          Listening to:   tcp://172.23.156.8:39369
+distributed.worker - INFO -              bokeh at:         172.23.156.8:38265
+distributed.worker - INFO -              nanny at:         172.23.156.8:34582
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.7:35252
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-gudkwM
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://172.23.156.8:43733
+distributed.worker - INFO -          Listening to:   tcp://172.23.156.8:43733
+distributed.worker - INFO -              bokeh at:         172.23.156.8:44941
+distributed.worker - INFO -              nanny at:         172.23.156.8:46568
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.7:35252
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-iTHdYA
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://172.23.156.8:44105
+distributed.worker - INFO -       Start worker at:   tcp://172.23.156.8:45978
+distributed.worker - INFO -          Listening to:   tcp://172.23.156.8:44105
+distributed.worker - INFO -          Listening to:   tcp://172.23.156.8:45978
+distributed.worker - INFO -              bokeh at:         172.23.156.8:43101
+distributed.worker - INFO -              bokeh at:         172.23.156.8:41734
+distributed.worker - INFO -              nanny at:         172.23.156.8:44834
+distributed.worker - INFO -              nanny at:         172.23.156.8:44356
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.7:35252
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.7:35252
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-nYgJUy
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-oEkxi2
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://172.23.156.8:44749
+distributed.worker - INFO -          Listening to:   tcp://172.23.156.8:44749
+distributed.worker - INFO -              bokeh at:         172.23.156.8:44723
+distributed.worker - INFO -              nanny at:         172.23.156.8:46739
+distributed.worker - INFO - Waiting to connect to:   tcp://172.23.159.7:35252
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          2
+distributed.worker - INFO -                Memory:                   12.80 GB
+distributed.worker - INFO -       Local Directory: /dls/science/groups/i04-1/conor_dev/pandda/lib-python/pandda/pandda_analyse_dask/worker-Hbk1I0
+distributed.worker - INFO - -------------------------------------------------
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.23.156.8:46568'
+distributed.worker - INFO - Stopping worker at tcp://172.23.156.8:43733
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.23.156.8:34582'
+distributed.worker - INFO - Stopping worker at tcp://172.23.156.8:39369
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.23.156.8:44834'
+distributed.worker - INFO - Stopping worker at tcp://172.23.156.8:45978
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.23.156.8:44356'
+distributed.worker - INFO - Stopping worker at tcp://172.23.156.8:44105
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.23.156.8:46739'
+distributed.worker - INFO - Stopping worker at tcp://172.23.156.8:44749
+distributed.dask_worker - INFO - End worker
