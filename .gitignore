@@ -1,2 +1,5 @@
 /worker*
 /dask*
+/dask-worker-space
+/.ipynb_checkpoints
+/multi_dataset_crystalography_dep
